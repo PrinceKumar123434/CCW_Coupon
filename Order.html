@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="Script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+
+      <!-- left side -->
+      <div class="left">
+        <!-- header sumary design  -->
+       <div class="summery">
+        <div id="header_summery">Order Summery</div>
+        <img src="shopping-bag.png" alt="shopping-bag" id="shop-bag">
+       </div>
+
+       <!-- card design -->
+       <div class="main-div-order">
+        <div class="main-order">
+         <div class="card">
+          <div class="row">
+            <div class="col-md-4">
+            <img src="bag.webp" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <p class="para">Personalized Laptop Sleeve With Name.</p>
+               <p class="para1"><span>Quantity: 1</span> <span>Price : &#8377 1499 </span></p>
+            </div>
+          </div>
+         </div>
+         <div class="card">
+          <div class="row">
+            <div class="col-md-4">
+            <img src="bag.webp" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <p class="para">Personalized Laptop Sleeve With Name.</p>
+               <p class="para1"><span>Quantity: 1</span> <span>Price : &#8377 1499 </span></p>
+            </div>
+          </div>
+         </div>
+         <div class="card">
+          <div class="row">
+            <div class="col-md-4">
+            <img src="bag.webp" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <p class="para">Personalized Laptop Sleeve With Name.</p>
+               <p class="para1"><span>Quantity: 1</span> <span>Price : &#8377 1499 </span></p>
+            </div>
+          </div>
+         </div>
+        </div>
+        </div>
+
+        <!-- sub text design  -->
+       <div class="sub1">
+        <p class="con1"><span>Subtotal</span> <span>&#8377 5,693.00</span> </p>
+        <p class="con2"><span>Shipping</span> <span>To be calculated</span></p>
+        <hr class="hr1">
+        <p class="con3"><span>Total</span> <span>&#8377 5,693.00</span></p>
+       </div>
+
+       <!-- coppon design  -->
+        <div class="conb">
+          <button id="btn1">
+            <img src="cupon.jpg" alt=""><span>Apply Coupon</span>
+          </button>
+        </div>
+
+
+     <div id="displayText" style="display: none;">
+    
+      <div class="maind">
+
+        <div class="headcon">
+          <h4>Apply Coupon</h4>
+        </div>
+
+        <div class="inputb">
+         <img src="cupon.jpg" alt="">  <input type="text" placeholder="Enter Discount Code"> <span>Apply</span>
+        </div>
+
+        <!-- first  -->
+        <div class="main1">
+          <div class="head1">order above 2000</div>
+          <div class="cont1"> <span>tws2</span> <button>Apply</button></div>
+          <div class="cont2">get 200 off</div>
+          <div class="cont3">On orders above Rs. 2000</div>
+        </div>
+         
+  <!-- second  -->
+  <div class="main1">
+    <div class="head1">offer 100</div>
+    <div class="cont1"> <span>2000 offer</span> <button>Apply</button></div>
+    <div class="cont2">Rs. 200 Of By adding four products</div>
+    <div class="cont3">Applicable on a minimum of 4 products.</div>
+  </div>
+      </div>
+      
+     </div>
+
+      </div>
+<!-- right side  -->
+      <div class="arrow">
+        <i class="fa-solid fa-arrow-left"></i>
+      </div>
+
+      <div class="right">
+        <div class="main">
+         <div class="first"><button id="bt1">1.Contact</button></div>
+         <div class="second"><button id="bt2">2.Address</button></div>
+         <div class="third"><button id="bt3">3.Payment</button></div>
+        </div>
+
+         <!-- progress bar  -->
+         <div class="pro_bar">
+          <div class="bar">
+            <div class="fill"></div>
+          </div>
+        </div>
+          
+          <!-- contact form  -->
+        <div class="formd" id="cfc1">
+         <form>
+          <p>Enter Mobile Number</p>
+           <div class="phone1"><input 
+            id="phone"
+            type="tel"
+            maxlength="10"
+            required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="+91 | Mobile Number"
+            onkeyup="numberonly(this)"
+            onkeypress="isInputNumber(event)"
+          /></div>
+          <input type="checkbox"><label>Send me order updates and offers</label>
+          <button id="get1">Get OTP &ensp;<i class="fa-solid fa-arrow-right"></i></button>
+         </form>
+        </div>   
+
+         <!-- Address form  -->
+          <div class="add1"  style="display: none;">
+        
+           <div class="midc">
+            <div class="addc">Shopping Address</div>
+            <div class="addb"><button id="aid"> <span>+</span> Add a new Address</button></div>
+           </div>
+
+           <textarea name="" id="" cols="35" rows="2"></textarea>
+           <button id="btc1">Continue &ensp;<i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+
+
+
+          <!-- Payment form  -->
+          <div class="pay" style="display: none;">
+           <div class="pac">Select Payment Method</div>
+
+           <div class="pab">
+            <div class="pab1"><i class="fa-brands fa-google-play"></i> <span>UPI</span></div>
+            <div class="pab2"> <h1>&#8377 979.00</h1> <h2>&#8377 20 Discount</h2> <p>Free shopping</p></div>
+           </div>
+
+           <div class="pab">
+            <div class="pab1"><i class="fa-solid fa-credit-card"></i> <span>Cards</span></div>
+               <div class="pab2"> <h1>&#8377 979.00</h1> <h2>&#8377 20 Discount</h2> <p>Free shopping</p></div>
+           </div>
+
+           <div class="pab">
+            <div class="pab1"><i class="fa-solid fa-wallet"></i> <span>Wallets</span></div>
+               <div class="pab2"> <h1>&#8377 979.00</h1> <h2>&#8377 20 Discount</h2> <p>Free shopping</p></div>
+           </div>
+
+           <div class="pab">
+            <div class="pab1"><i class="fa-solid fa-mobile-screen"></i><span>Net Banking</span></div>
+               <div class="pab2"> <h1>&#8377 979.00</h1> <h2>&#8377 20 Discount</h2> <p>Free shopping</p></div>
+           </div>
+
+          </div>
+      </div>
+
+    </div>
+  </header>
+
+
+  <script>
+    let container = document.querySelector(".main");
+let fill = document.querySelector(".fill");
+let click1 = document.querySelector("#bt1");
+let click2 = document.querySelector("#bt2");
+let click3 = document.querySelector("#bt3");
+click1.addEventListener('click',()=>{
+  var a=0;
+  var run = setInterval(frames,50);
+ function frames(){
+  a=a+1;
+  if(a == 33)
+  {
+    clearInterval(run);
+    // container.style.display = "block";
+  }
+  else 
+  {
+    fill.style.width = a + "%";
+  }
+ }
+});
+
+click2.addEventListener('click',()=>{
+  var a=0;
+  var run = setInterval(frames,50);
+ function frames(){
+  a=a+1;
+  if(a == 66)
+  {
+    clearInterval(run);
+    // container.style.display = "block";
+  }
+  else 
+  {
+    fill.style.width = a + "%";
+  }
+ }
+});
+
+click3.addEventListener('click',()=>{
+  var a=0;
+  var run = setInterval(frames,50);
+ function frames(){
+  a=a+1;
+  if(a == 101)
+  {
+    clearInterval(run);
+    // container.style.display = "block";
+  }
+  else 
+  {
+    fill.style.width = a + "%";
+  }
+ }
+});
+  </script>
+
+</body>
+</html>

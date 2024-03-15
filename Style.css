@@ -1,0 +1,522 @@
+header {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #a99d94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  width: 1000px;
+  height: 570px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 25px;
+}
+
+/* left side design  */
+.left {
+  background-color: #f2f2f2;
+  max-height: 540px;
+  width: 327px;
+  margin: 15px 0px 15px 15px;
+  padding: 20px 15px;
+  justify-content: left;
+  border-radius: 10px;
+}
+
+.summery {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header_summery {
+  font-size: 19.2px;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#shop-bag {
+  height: 19px;
+  margin-left: 0px;
+  float: right;
+  box-sizing: border-box;
+}
+
+.main-div-order {
+  margin: 14px 0px;
+}
+
+.main-order {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 1em auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+.para {
+  border: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: right;
+  align-items: center;
+}
+
+.para1 {
+  border: none;
+  display: flex;
+  margin-top: 6px;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400 !important;
+}
+
+.card {
+  border: none;
+}
+
+.col-md-8 {
+  border: none;
+}
+
+/* sub design  */
+.sub1 {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin: 14px 0px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.con1 {
+  font-size: 14px;
+  font-weight: 500 !important;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.con2 {
+  font-size: 14px;
+  font-weight: 500 !important;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.con3 {
+  font-size: 14px;
+  font-weight: bold !important;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.hr1 {
+  margin: 5px;
+}
+
+/* Coppon Design  */
+.conb {
+  border: 1px dashed #a9abb2;
+  color: #525252;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 55px;
+  height: auto;
+  width: 100%;
+}
+
+.conb img {
+  height: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conb #btn1 {
+  background-color: #fff;
+  color: #523A28;
+  text-align: center;
+  border: none;
+  align-items: center;
+  position: relative;
+  top: -10px;
+}
+
+.conb #btn1 span {
+  position: relative;
+  left: 10px;
+}
+
+
+/* right sied design  */
+.arrow {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.right {
+  width: 70%;
+  margin-top: 20px;
+  padding: 5px 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first button {
+  height: 10px;
+  width: 100px;
+  background-color: #fff;
+  border: none;
+  font-size: 14px;
+  color: #000;
+}
+
+.second button {
+  height: 10px;
+  width: 100px;
+  background-color: #fff;
+  border: none;
+  font-size: 14px;
+  color: #000;
+}
+
+.third button {
+  height: 10px;
+  width: 100px;
+  background-color: #fff;
+  border: none;
+  font-size: 14px;
+  color: #000;
+}
+
+/* Progress bar design  */
+
+.bar {
+  background-color: rgba(163, 156, 156, 0.25);
+  width: 90%;
+  height: 10px;
+  margin: 10px auto;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  width: 1%;
+  background: #523a28;
+}
+
+/* middle ware design  */
+.formd {
+  max-width: 280px;
+  height: 100%;
+  margin-top: 100px;
+  max-height: 400px;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#phone {
+  outline: 0;
+}
+
+#phone:valid {
+  border: 1px solid #c6bcbc;
+}
+
+#phone:focus:invalid {
+  border-color: red;
+}
+
+.formd p {
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.phone1 input {
+  text-align: center;
+  width: 90%;
+  height: 48px;
+  justify-content: center;
+  border: 1px solid #c6bcbc;
+  border-radius: 5px;
+  align-items: center;
+  margin: 1em auto;
+  margin-bottom: 12px;
+}
+
+button {
+  height: 45px;
+  width: 90%;
+  padding: 12px 16px;
+  background-color: #523A28;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+/* Apply coupon desing  */
+.maind {
+  width: 327px;
+  background-color: #f2f2f2;
+  max-width: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: -15px;
+  padding: 20px 15px;
+  justify-self: left;
+  height: 100%;
+  max-height: 540px;
+  border-radius: 10px;
+  display: block;
+  flex-direction: column;
+  padding: 20px 15px;
+}
+
+.headcon p {
+  font-size: 19.2px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.inputb {
+  width: 362px;
+  max-width: 100%;
+  background-color: #fff;
+  margin-top: 10px;
+  height: auto;
+  padding: 11px 10px;
+  border-radius: 5px;
+  border: 1px solid #523a28;
+}
+
+.inputb img {
+  height: 24px;
+  width: 24px;
+}
+
+.inputb input {
+  height: 100% !important;
+  box-shadow: none;
+  width: auto;
+  max-width: 100%;
+  font-size: 14px;
+  padding: 5px 4px !important;
+  outline: none;
+  border: none;
+}
+
+.inputb span {
+  color: #7e808c !important;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/* card design  */
+.main1 {
+  width: 100%;
+  background-color: #fff;
+  max-width: 400px;
+  margin-top: 15px;
+  margin-left: 0px;
+  height: auto;
+  margin-right: 0px;
+  justify-self: left;
+  border-radius: 10px;
+  border: 1px dotted #523a28;
+  padding-bottom: 20px;
+}
+
+.head1 {
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 400 !important;
+  background-color: #523a28;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
+  height: 31px;
+  font-family: sans-serif;
+}
+
+.cont1 button {
+  width: 50%;
+  font-size: 14px;
+  border: none;
+  height: 36px;
+  width: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #523a28;
+  background-color: #fff;
+  position: relative;
+  left: 150px;
+}
+
+.cont1 span {
+  width: 50%;
+  font-size: 14px;
+  border: 1px dotted #9ab6ff;
+  max-width: 70px;
+  color: #000;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  position: relative;
+  left: 25px;
+}
+
+.cont2 {
+  color: #009329;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400 !important;
+  position: relative;
+  left: 30px;
+}
+
+.cont3 {
+  color: grey;
+  font-size: 12px;
+  position: relative;
+  /* bottom: 50px; */
+  left: 30px;
+  font-weight: 800;
+  padding-top: 5px;
+}
+
+#displayText {
+  position: relative;
+  bottom: 530px;
+}
+
+/* Address design  */
+.midc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addc {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  text-align: left;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.addb #aid {
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  width: auto;
+  border: 1px dashed #523a28;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.addb #aid span {
+  font-weight: bold;
+  color: #523a28;
+}
+
+#btc1 {
+  width: 100%;
+}
+
+/* Payment desing  */
+.pay {
+  margin-left: 25px;
+}
+
+.pac {
+  font-size: 16px;
+  color: #523a28;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.pab {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 19, 37, 0.08);
+  width: 100%;
+  height: auto;
+}
+
+.pab1 span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.pab2 h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pab2 p {
+  font-size: 14px;
+  color: #007500;
+  line-height: 13px;
+  font-weight: 600;
+}
+
+.pab2 h2 {
+  background: #009329;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px;
+  border-radius: 5px;
+}
